@@ -1,0 +1,78 @@
+############# Spanish navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[main]]
+name = "Master Cloud Apps"
+url = "mastercloudapps/"
+weight = 2
+
+[[main]]
+name = "Proyectos"
+url = "project/"
+weight = 3
+
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 4
+
+[[main]]
+weight = 5
+name = "Cursos"
+hasChildren = true
+
+  [[main]]
+  parent = "Cursos"
+  name = "Calidad Software"
+  url = "calidad-software/"
+  weight = 1
+
+  [[main]]
+  parent = "Cursos"
+  name = "Servicios Web"
+  url = "servicios-web/"
+  weight = 2
+
+  [[main]]
+  parent = "Cursos"
+  name = "Microservicios"
+  url = "microservicios/"
+  weight = 3
+  
+  [[main]]
+  parent = "Cursos"
+  name = "DevOps, CI y CD"
+  url = "ci-cd/"
+  weight = 4
+
+[[main]]
+name = "Contacto"
+url = "contact/"
+weight = 6
+
+
+# footer menu
+[[footer]]
+name = "Master Cloud Apps"
+url = "mastercloudapps/"
+weight = 1
+
+[[footer]]
+name = "Proyectos"
+url = "project/"
+weight = 2
+
+[[footer]]
+name = "Servicios"
+url = "service/"
+weight = 3
+
+[[footer]]
+name = "Contacto"
+url = "contact/"
+weight = 4
