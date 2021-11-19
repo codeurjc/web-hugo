@@ -84,15 +84,15 @@ funfacts:
 
   testimonial_slider:
   # testimonial item loop
-  - name: "Juan Romero"
+  - name: "??"
     image: "images/clients/avater-1.jpg"
-    designation: "CTO-RatedPower"
+    designation: "??"
     content: "Acompañamiento."
 
   # testimonial item loop
-  - name: "Rubén Aguilera"
+  - name: "??"
     image: "images/clients/avater-1.jpg"
-    designation: "Kairós"
+    designation: "??"
     content: "Formación."
 
   # testimonial item loop
